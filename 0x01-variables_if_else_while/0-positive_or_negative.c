@@ -1,9 +1,10 @@
 #include <stdio.h>
-int main(void){
+int main(void)
+{
 float n;
 if(n>0){
 printf("%f is positive",n);
-}else if(n=0){
+}else if(n==0){
 printf("%f is zero",n);
 }else {
 printf("%f is negative",n);
